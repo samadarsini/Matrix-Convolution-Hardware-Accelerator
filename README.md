@@ -10,6 +10,12 @@ This project implements a **hardware accelerator for matrix convolution** using 
 - **Testbench & Simulation:** Verification of the design codes using SystemVerilog testbenches and simulated to observe the functionality.
 - **Performance Benchmarking:** Comparison of software-only vs. hardware-accelerated convolution execution times.
 
+## Tools Used
+- Cadence Xecilium
+- Intel Quartus Prime
+- UBoot terminal
+- VS Code
+
 ## Summary of Folders
 matrix_conv_fsm - Contains the hardware implementation (system Verilog) for FSM-based matrix convolution.
 my_embedded - Contains software integration files, Makefile, and hardware-software interfacing code.
